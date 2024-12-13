@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'ULB Center for Diabetes Research, Université Libre de Bruxelles',
+    degree: 'PhD of Biomedical and Pharmaceutical Science',
+    link: 'https://www.ucdr.be',
+    year: '2020 - present',
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'National Key Lab of Diabetes Immunology & The 2nd Xiangya Hospital, Central South University',
+    degree: 'Master of Clinical Medicine: Internal Medicine',
+    link: 'https://dmkeylab.csu.edu.cn/',
+    year: '2020',
+  },
+  {
+    school: 'Xiangya School of Medicine, Central South University',
+    degree: 'Bachelor of Clinical Medicine',
+    link: 'https://xysm.csu.edu.cn/EN/Home.htm',
+    year: '2017',
   },
 ];
 

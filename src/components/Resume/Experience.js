@@ -7,19 +7,18 @@ const Experience = ({ data }) => (
   <div className="experience">
     <div className="link-to" id="experience" />
     <div className="title">
-      <h3>Experience</h3>
+      <h3>Research & Clinical Experience</h3>
     </div>
     {data.map((job) => (
-      <Job data={job} key={`${job.name}-${job.position}`} />
+      <Job data={job} key={`${job.institute} - ${job.position}`} />
     ))}
   </div>
 );
-
 Experience.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.exact({
-      name: PropTypes.string,
       position: PropTypes.string,
+      insititute: PropTypes.string,
       url: PropTypes.string,
       startDate: PropTypes.string,
       endDate: PropTypes.string,

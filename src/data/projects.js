@@ -1,47 +1,118 @@
 // TODO Add a couple lines about each project
+
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Modeling diabetes using gene editing and organoid technologies',
+    subtitle: '',
+    authors: '',
+    image: '',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'The large majority of diabetes are caused by a a very large number of genetic variants'
+      + 'plus environmental factors. In contrast, SNP-associated as well as monogenic diabetes connects the'
+      + 'dysfunctional insulin-secreting beta-cells with a single gene variant, thus can be viewed as a simpler'
+      + '“human knockout” condition in understanding. While patients\' human islets are scarce resource, '
+      + 'induced pluripotent stem cell(iPSC)-derived islets provide a species-, disease- and'
+      + 'patient-specific model that replicates β cell failure seen in patients, to further the understanding'
+      + 'of the disease development. ',
+    relatedPublications: [
+      {
+        title: 'Homozygous and heeterozygous insulin mutations cause divergent clinical and iPSC-derived beta-Cell phenotypes',
+        authors: 'Tong Y, Becker M, Schierloh U, et al',
+        year: 2025,
+        journal: 'In preparation',
+        link: '',
+      },
+      {
+        title: 'A critical role for iron import through the transferrin receptor in developing beta-cells',
+        authors: 'Van Mulders A, Willems L, Coenen S; et al., Tong Y, et al',
+        year: 2025,
+        journal: 'In preparation',
+        link: '',
+      },
+      {
+        title: 'Multi-omics characterization of type 2 diabetes associated genetic variation',
+        authors: 'Mandla R, Lorenz K, Yin X, et al., Tong Y, et al',
+        year: 2025,
+        journal: 'medRxiv',
+        link: 'https://www.medrxiv.org/content/10.1101/2024.07.15.24310282v1',
+      },
+    ],
+    meetings: [
+      {
+        title: 'Homozygous and heterozygous insulin mutations cause divergent clinical and iPSC-derived beta-cell phenotypes',
+        type: 'Talk',
+        events: [
+          { name: 'The 9th Meeting of SGGD', url: 'https://www.diabetesgenes.org/' },
+        ],
+        year: '2024',
+        location: 'Exeter, UK',
+      },
+      {
+        title: 'Discovery of a new treatment for a novel form of rare diabetes caused by an insulin gene mutation using patients',
+        type: 'Talks',
+        events: [
+          { name: 'The EASD 2023 Annual Meeting', url: 'https://www.easd.org/' },
+          { name: 'The ISPAD 2023 Annual Meeting', url: 'https://www.ispad.org/' },
+        ],
+        year: '2023',
+        location: 'Hamburg, Germany & Rotterdam, the Netherland',
+      },
+      {
+        title: 'Bedside-inspired diabetes modeling: learn from monogenic diabetes to understand the pathogenic mechanisms of T1D',
+        type: 'Invited Talk',
+        events: [
+          { name: '19th IDS Congress', url: 'https://www.immunologyofdiabetessociety.com/' },
+        ],
+        year: '2022',
+        location: 'Paris, France',
+      },
+    ],
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Biomarkers in classifying and predicting diabetes',
+    subtitle: '',
+    authors: '',
+    image: '',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'The classification and prediction of diabetes are essential for early diagnosis and effective management.'
+      + '  Bearing the peripherally accessible nature, molecular and physiological biomarkers provide valuable '
+      + 'insights into the mechanisms underlying disease heterogeneity and development, including beta-cell dysfunction, '
+      + 'immune responses, and metabolic dysregulation. These findings highlight the potential of biomarkers to improve '
+      + 'disease classification and enable precision medicine in clinical diabetes care.',
+    relatedPublications: [
+      {
+        title: 'Distinct secretion pattern of serum proinsulin in different types of diabetes',
+        authors: 'Tong Y, Yang L, Shao F, et al.',
+        year: 2020,
+        journal: 'Ann Transl Med',
+        link: 'https://atm.amegroups.org/article/view/40365/html',
+      },
+      {
+        title: 'Abnormal Neutrophil Transcriptional Signature May Predict Newly Diagnosed Latent Autoimmune Diabetes in Adults of South China',
+        authors: 'Xing Y, Lin Q, Tong Y, et al.',
+        year: 2020,
+        journal: 'Front Endocrinol (Lausanne)',
+        link: 'https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2020.581902/full',
+      },
+      {
+        title: 'Fibroblast Growth Factor 19 Levels Predict Subclinical Atherosclerosis in Men With Type 2 Diabetes',
+        authors: 'Hu J, Liu Z, Tong Y, et al.',
+        year: 2020,
+        journal: 'Front Endocrinol (Lausanne)',
+        link: 'https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2020.581902/full',
+      },
+    ],
+    meetings: [
+      {
+        title: 'Distinct secretion pattern of serum proinsulin in different types of diabetes',
+        type: 'Poster',
+        events: [
+          { name: '17th IDS Congress', url: 'https://www.immunologyofdiabetessociety.com/' },
+        ],
+        year: '2020',
+        location: 'Beijing, China',
+      },
+    ],
   },
 ];
 

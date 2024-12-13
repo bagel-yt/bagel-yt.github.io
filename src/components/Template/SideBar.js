@@ -12,23 +12,31 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Yue Tong 童 越</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:yue.tong@ulb.be">yue.tong@ulb.be</a>
+        </p>
+        <p>
+          <a href="mailto:yue.tong94@gmail.com">yue.tong94@gmail.com</a>
         </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
+      <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
+        I am currently a final year PhD candidate at
+        {' '}
+        <a href="https://www.ucdr.be/">ULB Center for Diabetes Research</a> & FRIA doctoral fellow of
+        {' '}
+        <a href="https://www.frs-fnrs.be/en/">F.R.S.-FNRS</a>.
+        My research focuses on unraveling
+        disease mechanisms with organoid technology, genome editing and multi-omics approaches.
+      </p>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Currently, I am cultivating an interest and a career toward a genomics-driven
+        understanding of
+        disease development, hoping to generate some evolutionary insights.
       </p>
       <ul className="actions">
         <li>
@@ -48,7 +56,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Yue Tong <Link to="/">bagel-yt@github.io</Link>.
       </p>
     </section>
   </section>
