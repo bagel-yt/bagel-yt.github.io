@@ -55,7 +55,7 @@ const data = [
           { name: 'The ISPAD 2023 Annual Meeting', url: 'https://www.ispad.org/' },
         ],
         year: '2023',
-        location: 'Hamburg, Germany & Rotterdam, the Netherland',
+        location: 'Hamburg, Germany & Rotterdam, the Netherland ',
       },
       {
         title: 'Bedside-inspired diabetes modeling: learn from monogenic diabetes to understand the pathogenic mechanisms of T1D',
