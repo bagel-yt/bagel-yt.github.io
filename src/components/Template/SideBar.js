@@ -34,8 +34,8 @@ const SideBar = () => (
         disease mechanisms with organoid technology, genome editing and multi-omics approaches.
       </p>
       <p>
-        Currently, I am seeking to develop a career in product development and translational research,
-        leveraging extensive laboratory and clinical background.
+        Currently, I am seeking to develop a career in product development and translational
+        research, leveraging extensive laboratory and clinical background.
         I am also cultivating a strong interest toward a phylogenetics
         understanding of disease development, hoping to generate some evolutionary insights.
       </p>
