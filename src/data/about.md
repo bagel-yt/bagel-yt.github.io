@@ -17,7 +17,7 @@ in a patient-specific model that replicates β cell phenotype seen in individual
 
 &nbsp;
 
-Meanwhile, I've been very lucky to be able to actively participate and been extensively exposed and to 
+Meanwhile, I've been very lucky to be able to actively participate and been extensively exposed to 
 both bioinformatics and phylogenetics studies during the past years. 
 
 &nbsp;
@@ -27,15 +27,16 @@ hoping to generate some evolutionary insights.
 
 These experience fostered my interest in the following areas, toward which I would like to pursuit in my future.
 
-1) `Translational studies` Through which exciting discoveries from benches return to bedside.
+1) `Product Development and/or Translational Studies` Through which exciting discoveries from benches return to 
+bedside as well as daily life.
 
-2) `Bioinformatics and/or phylogenetics studies` From which how certain pathways, cellular compartments, cells, and organs
+2) `Bioinformatics and/or Phylogenetics Studies` From which how certain pathways, cellular compartments, cells, and organs
 has been evolved to sustain modern species could be inferred.
 
 # I Like
 
-- Rope Climbing and/or Bouldering (Highest priority: safe and soft descending)
-- Hiking (Lite version)
+- Rope Climbing and/or Bouldering (Highest priority: safe and soft descending.)
+- Hiking (Lite version.)
 - Fossil hunting (Usually find Belemnoidea instead of Ammonoidea.)
 - Star gazing (I've seen the most beautiful Venus.)
 - Procreate (I know how to draw an Ichthyosauria.)
