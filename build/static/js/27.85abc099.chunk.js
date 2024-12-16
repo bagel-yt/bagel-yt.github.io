@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbagel_yt_github_io=self.webpackChunkbagel_yt_github_io||[]).push([[27],{27:(e,t,b)=>{e.exports=b.p+"static/media/about.c60b638b39d8d695ed24.md"}}]);
