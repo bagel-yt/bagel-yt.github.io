@@ -27,10 +27,10 @@ hoping to generate some evolutionary insights.
 
 These experience fostered my interest in the following areas, toward which I would like to pursuit in my future.
 
-1) `Product Development and/or Translational Studies` Through which exciting discoveries from benches return to 
+1) `Product Development` and/or `Translational Studies` Through which exciting discoveries from benches return to 
 bedside as well as daily life.
 
-2) `Bioinformatics and/or Phylogenetics Studies` From which how certain pathways, cellular compartments, cells, and organs
+2) `Bioinformatics` and/or `Phylogenetics Studies` From which how certain pathways, cellular compartments, cells, and organs
 has been evolved to sustain modern species could be inferred.
 
 # I Like

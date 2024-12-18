@@ -5,20 +5,24 @@ import Markdown from 'markdown-to-jsx';
 
 const Job = ({
   data: {
-    position, institute, url, startDate, endDate, summary, highlights,
+    position, institutes, startDate, endDate, summary, highlights,
   },
 }) => (
   <article className="jobs-container">
     <header>
       <h4 style={{ marginLeft: '2px' }}>
-        <a href={url}> <span role="img" aria-label="at">📍</span> {institute} - {position} </a>
+        <span role="img" aria-label="at">📍</span> {position}
       </h4>
+      <p>
+        {institutes.map((inst) => (
+          <a href={inst.url} key={inst.name}>
+            {inst.name}
+          </a>
+        )).reduce((prev, curr) => [prev, ' | ', curr])}
+      </p>
       <p className="daterange">
-        {' '}
-        {dayjs(startDate)
-          .format('MMMM YYYY')} -{' '}
-        {endDate ? dayjs(endDate)
-          .format('MMMM YYYY') : 'PRESENT'}
+        {dayjs(startDate).format('MMMM YYYY')} -{' '}
+        {endDate ? dayjs(endDate).format('MMMM YYYY') : 'PRESENT'}
       </p>
     </header>
     {summary ? (
@@ -48,9 +52,13 @@ const Job = ({
 
 Job.propTypes = {
   data: PropTypes.shape({
-    institute: PropTypes.string.isRequired,
+    institutes: PropTypes.arrayOf(
+      PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        url: PropTypes.string.isRequired,
+      }),
+    ).isRequired,
     position: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
     startDate: PropTypes.string.isRequired,
     endDate: PropTypes.string,
     summary: PropTypes.string,

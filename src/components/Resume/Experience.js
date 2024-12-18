@@ -10,17 +10,25 @@ const Experience = ({ data }) => (
       <h3>Research & Clinical Experience</h3>
     </div>
     {data.map((job) => (
-      <Job data={job} key={`${job.institute} - ${job.position}`} />
+      <Job
+        data={job}
+        key={`${job.position}-${job.institutes.map((inst) => inst.name).join(', ')}`}
+      />
     ))}
   </div>
 );
+
 Experience.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.exact({
-      position: PropTypes.string,
-      insititute: PropTypes.string,
-      url: PropTypes.string,
-      startDate: PropTypes.string,
+      position: PropTypes.string.isRequired,
+      institutes: PropTypes.arrayOf(
+        PropTypes.shape({
+          name: PropTypes.string.isRequired,
+          url: PropTypes.string.isRequired,
+        }),
+      ).isRequired,
+      startDate: PropTypes.string.isRequired,
       endDate: PropTypes.string,
       highlights: PropTypes.arrayOf(PropTypes.string),
       summary: PropTypes.string,
