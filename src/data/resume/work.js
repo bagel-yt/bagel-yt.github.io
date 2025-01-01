@@ -65,7 +65,7 @@ const work = [
       { name: 'Xiangya Hospital, CSU', url: 'https://xiangya.com.cn/en/' },
       { name: 'The 1st Hospital of Changsha', url: 'http://www.cssdyyy.com/' },
     ],
-    startDate: '2012-09-01',
+    startDate: '2015-09-01',
     endDate: '2017-06-30',
     summary: '',
     highlights: [
