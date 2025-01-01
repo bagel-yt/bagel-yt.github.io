@@ -28,7 +28,7 @@ const Index = () => (
         Please feel free to click around and read more
         {' '}<Link to="/about" style={{ fontWeight: 'bold' }}>about me</Link>,
         or you can check out my{' '}<Link to="/resume" style={{ fontWeight: 'bold' }}>resume</Link>,
-        download my <a href={`${PUBLIC_URL}/yuetong_cv.pdf`} download="yuetong_cv.pdf" style={{ fontWeight: 'bold' }}>CV</a>,
+        download my <a href={`${PUBLIC_URL}/docs/yuetong_cv.pdf`} download="yuetong_cv.pdf" style={{ fontWeight: 'bold' }}>CV</a>,
         read about my{' '}<Link to="/projects" style={{ fontWeight: 'bold' }}> research</Link>,
         view {' '}<Link to="/stats" style={{ fontWeight: 'bold' }}>site statistics</Link>, or{' '}
         <Link to="/contact" style={{ fontWeight: 'bold' }}>contact me</Link>.
