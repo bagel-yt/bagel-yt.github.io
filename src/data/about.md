@@ -27,7 +27,7 @@ hoping to generate some evolutionary insights.
 
 These experience fostered my interest in the following areas, toward which I would like to pursuit in my future.
 
-1) `Molecular Genetics` and/or `Bioinformatics` Discovering and interpreting genetic variants and regulatory elements/networks.
+1) `Molecular Genetics` and/or `Bioinformatics` Discovering and interpreting genetic variants and regulatory elements.
 
 2) `Stem Cell Biology` Deciphering mechanisms of pluripotency and lineage commitment.
 
