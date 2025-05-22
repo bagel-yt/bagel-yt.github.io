@@ -27,7 +27,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - name: Checkout
@@ -64,6 +64,9 @@ jobs:
           retry npm run predeploy
         env:
           NODE_ENV: production
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
+          PUPPETEER_ARGS: --no-sandbox --disable-setuid-sandbox
           # Remove this line if you would like to skip using google analytics
           # REACT_APP_GA_TRACKING_ID: UA-68649021-1
       - name: Setup Pages
