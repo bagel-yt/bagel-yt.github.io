@@ -15,7 +15,7 @@ const data = [
     icon: faGoogleScholar,
   },
   {
-    link: 'https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free',
+    link: 'https://orcid.org/0009-0003-6881-2080',
     label: 'ORCID',
     icon: faOrcid,
   },
