@@ -7,45 +7,67 @@ const data = [
     authors: '',
     image: '',
     desc:
-      'The large majority of diabetes are caused by a a very large number of genetic variants'
-      + 'plus environmental factors. In contrast, SNP-associated as well as monogenic diabetes connects the'
-      + 'dysfunctional insulin-secreting beta-cells with a single gene variant, thus can be viewed as a simpler'
-      + '“human knockout” condition in understanding. While patients\' human islets are scarce resource, '
+      'The large majority of diabetes are caused by a joint force of genetic variants'
+      + 'and environmental factors. In contrast, rare SNP-associated and monogenic diabetes connects the'
+      + 'dysfunctional insulin-secreting beta-cells with a single potent gene variant, thus can be viewed as a simpler'
+      + '“human knockout” condition in understanding disease mechanisms. While patients\' human islets are scarce resource, '
       + 'induced pluripotent stem cell(iPSC)-derived islets provide a species-, disease- and'
       + 'patient-specific model that replicates β cell failure seen in patients, to further the understanding'
       + 'of the disease development. ',
     relatedPublications: [
       {
         title: 'Homozygous and heeterozygous insulin mutations cause divergent clinical and iPSC-derived beta-Cell phenotypes',
-        authors: 'Tong Y, Becker M, Schierloh U, et al',
+        authors: 'Tong Y, Becker M, Schierloh U, et al.',
         year: 2025,
         journal: 'In preparation',
+        link: '',
+      },
+      {
+        title: 'Diabetes mellitus and the key role of endoplasmic reticulum stress in pancreatic β cells',
+        authors: 'Lytrivi M*, Tong Y*, Virgilio E*, et al.',
+        year: 2025,
+        journal: 'Nature Reviews Endocrinology (in press)',
         link: '',
       },
       {
         title: 'A critical role for iron import through the transferrin receptor in developing beta-cells',
-        authors: 'Van Mulders A, Willems L, Coenen S; et al., Tong Y, et al',
+        authors: 'Van Mulders A, Willems L, Coenen S, et al., Tong Y, et al.',
         year: 2025,
-        journal: 'In preparation',
+        journal: 'Submitted to Nature Communication',
         link: '',
       },
       {
         title: 'Multi-omics characterization of type 2 diabetes associated genetic variation',
-        authors: 'Mandla R, Lorenz K, Yin X, et al., Tong Y, et al',
+        authors: 'Mandla R, Lorenz K, Yin X, et al., Tong Y, et al.',
         year: 2025,
         journal: 'medRxiv',
         link: 'https://www.medrxiv.org/content/10.1101/2024.07.15.24310282v1',
+      },
+      {
+        title: 'ER stress relief drives ß-cell proliferation',
+        authors: 'Bourgeois S; Van Mulders A; Heremans Y, et al., Tong Y, et al.',
+        year: 2024,
+        journal: 'Submitted to Diabetologia',
+        link: '',
+      },
+      {
+        title: 'Proinsulin folding and trafficking defects trigger a common pathological disturbance of endoplasmic reticulum homeostasis',
+        authors: 'Arunagiri A, Alam M, Haataja L, et al., Tong Y, et al.',
+        year: 2024,
+        journal: 'Protein Sciences',
+        link: 'https://onlinelibrary.wiley.com/doi/10.1002/pro.4949',
       },
     ],
     meetings: [
       {
         title: 'Homozygous and heterozygous insulin mutations cause divergent clinical and iPSC-derived beta-cell phenotypes',
-        type: 'Talk',
+        type: 'Talks',
         events: [
+          { name: 'The IGIS meeting of EASD', url: 'https://www.easd.org/education/meetings-and-courses/igis-meeting.html' },
           { name: 'The 9th Meeting of SGGD', url: 'https://www.diabetesgenes.org/' },
         ],
-        year: '2024',
-        location: 'Exeter, UK',
+        year: '2024-2025',
+        location: 'Schloss Hohenkammer, Germany & Exeter, UK',
       },
       {
         title: 'Discovery of a new treatment for a novel form of rare diabetes caused by an insulin gene mutation using patients',

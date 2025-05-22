@@ -36,42 +36,12 @@ const skills = [
   },
   {
     title: 'R',
-    competency: 5,
+    competency: 3,
     category: ['Languages'],
   },
   {
-    title: 'Data Visualization',
-    competency: 5,
-    category: ['Data Science'],
-  },
-  {
-    title: 'awk',
-    competency: 3,
-    category: ['Data Science'],
-  },
-  {
-    title: 'bedtools',
-    competency: 2,
-    category: ['Data Science'],
-  },
-  {
-    title: 'Pandas',
+    title: 'Data Visualization (ggplot2, matplotlib)',
     competency: 4,
-    category: ['Data Science'],
-  },
-  {
-    title: 'Numpy',
-    competency: 3,
-    category: ['Data Science'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 2,
-    category: ['Data Science'],
-  },
-  {
-    title: 'ggplot2',
-    competency: 5,
     category: ['Data Science'],
   },
   {
@@ -116,7 +86,7 @@ const skills = [
   },
   {
     title: 'Epigenomics',
-    competency: 3,
+    competency: 2,
     category: ['Computational Biology'],
   },
   {

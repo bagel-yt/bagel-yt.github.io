@@ -155,6 +155,12 @@ const courses = [
     link: 'https://github.com/adamkocsis/palaeogeography_palass2024',
     university: 'Friedrich-Alexander-Universität (FAU) Erlangen-Nürnberg',
   },
+  {
+    title: 'EASD Robert Turner Clinical Research Course',
+    number: '',
+    link: 'https://www.easd.org/rtc-2025.html',
+    university: 'University of Oxford',
+  },
 ];
 
 export default courses;

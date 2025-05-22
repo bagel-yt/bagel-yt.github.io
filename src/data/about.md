@@ -1,6 +1,6 @@
 # Intro
 
-I am currently a last year PhD candidate at [ULB Center for Diabetes Research](https://www.ucdr.be) under the
+I am a last year PhD candidate at [ULB Center for Diabetes Research](https://www.ucdr.be) under the
 supervision of [Prof Miriam Cnop](https://en.wikipedia.org/wiki/Miriam_Cnop). 
 
 &nbsp;
@@ -13,11 +13,11 @@ disease mechanisms.
 &nbsp;
 
 Leveraging clinical and omics resources, my current work utilizes iPSC-derived islets to understand disease mechanisms 
-in a patient-specific model that replicates β cell phenotype seen in individuals with SNP-associated and monogenic diabetes.
+in a variant-specific model that replicates β cell phenotype seen in individuals with rare SNP-associated and monogenic diabetes.
 
 &nbsp;
 
-Meanwhile, I've been very lucky to be able to actively participate and been extensively exposed to 
+Meanwhile, I've been very lucky to be able to actively participate and been extensively exposed to and got hands-on experiences with
 both bioinformatics and phylogenetics studies during the past years. 
 
 &nbsp;
@@ -27,11 +27,13 @@ hoping to generate some evolutionary insights.
 
 These experience fostered my interest in the following areas, toward which I would like to pursuit in my future.
 
-1) `Product Development` and/or `Translational Studies` Through which exciting discoveries from benches return to 
-bedside as well as daily life.
+1) `Molecular Genetics` and/or `Bioinformatics` Discovering and interpreting genetic variants and regulatory elements/networks.
 
-2) `Bioinformatics` and/or `Phylogenetics Studies` From which how certain pathways, cellular compartments, cells, and organs
-has been evolved to sustain modern species could be inferred.
+2) `Stem Cell Biology` Deciphering mechanisms of pluripotency and lineage commitment.
+
+3) `Translational Studies` and/or `Product Development` Moving bench discoveries into clinical and everyday life.
+
+4) `Phylogenetics Studies` Reconstructing evolutionary histories of genes, pathways, and species. (My lucky bonus if I got the chance!)
 
 # I Like
 
@@ -47,5 +49,6 @@ has been evolved to sustain modern species could be inferred.
 # Extras
 
 - My stage/cafeteria name is "Bagel", but that hardly work in Brussels, so I adopted "Iris".
+- I have a Podcast [七小时后](https://www.xiaoyuzhoufm.com/podcast/67d56f2e9283fc357d6fd399) for bedtime stories.
 - This website is an extended version of my CV, so you need to read more.
 

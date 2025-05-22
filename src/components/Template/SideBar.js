@@ -35,8 +35,9 @@ const SideBar = () => (
         disease mechanisms with organoid technology, genome editing and multi-omics approaches.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        Currently, I am seeking to develop a career in product development and translational
-        research, leveraging extensive laboratory and clinical background.
+        Currently, I am seeking to develop a career in multidisciplinary biomedical research —
+        spanning molecular genetics, bioinformatics, stem cell biology, translational studies
+        and product development — leveraging my extensive laboratory and clinical background.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
         I am also cultivating a strong interest toward a phylogenetics

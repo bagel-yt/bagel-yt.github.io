@@ -14,7 +14,7 @@
  */
 const work = [
   {
-    position: 'FRIA Doctoral Fellow 🧑🏻‍🔬',
+    position: 'FRIA (Fund For Research Training in Industry AND Agriculture) Doctoral Fellow 🧑🏻‍🔬',
     institutes: [
       { name: 'Center for Diabetes Research, ULB', url: 'https://www.ucdr.be' },
       { name: 'F.R.S.-FNRS', url: 'https://www.frs-fnrs.be/en/' },
@@ -23,9 +23,9 @@ const work = [
     summary: '',
     highlights: [
       'Leveraged 10+ clinical and omics resources in defining disease-driven genetic variants and cellular states.',
-      'Developed and coordinated 6 disease-specific models using iPSC-derived islets.',
-      'Spearheaded investigations on how ER-Golgi stress, autoimmunity, and gluco-lipotoxicity contribute to diabetes.',
-      'Achieved 4 manuscript in preparation elucidating physiological organ development and disease mechanisms.',
+      'Developed and coordinated 8 disease-specific models using iPSC-derived islets.',
+      'Spearheaded investigations on how defective insulin biosynthesis, ER-Golgi stress, and gluco-lipotoxicity contribute to diabetes.',
+      'Achieved 6 manuscripts elucidating physiological organ development and disease mechanisms in diabetes.',
     ],
   },
   {
