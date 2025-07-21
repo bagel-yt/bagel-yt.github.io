@@ -16,24 +16,24 @@ const data = [
       + 'of the disease development. ',
     relatedPublications: [
       {
-        title: 'Homozygous and heeterozygous insulin mutations cause divergent clinical and iPSC-derived beta-Cell phenotypes',
+        title: 'A New Form of Diabetes Caused by INS Mutations Defined by Zygosity, Stem Cell and Population Data',
         authors: 'Tong Y, Becker M, Schierloh U, et al.',
         year: 2025,
-        journal: 'In preparation',
+        journal: 'Under review in EMBO Molecular Medicine',
         link: '',
       },
       {
         title: 'Diabetes mellitus and the key role of endoplasmic reticulum stress in pancreatic β cells',
         authors: 'Lytrivi M*, Tong Y*, Virgilio E*, et al.',
         year: 2025,
-        journal: 'Nature Reviews Endocrinology (in press)',
-        link: '',
+        journal: 'Nature Reviews Endocrinology',
+        link: 'https://www.nature.com/articles/s41574-025-01129-5',
       },
       {
         title: 'A critical role for iron import through the transferrin receptor in developing beta-cells',
         authors: 'Van Mulders A, Willems L, Coenen S, et al., Tong Y, et al.',
         year: 2025,
-        journal: 'Submitted to Nature Communication',
+        journal: 'Under review in Nature Communication',
         link: '',
       },
       {
@@ -44,10 +44,10 @@ const data = [
         link: 'https://www.medrxiv.org/content/10.1101/2024.07.15.24310282v1',
       },
       {
-        title: 'ER stress relief drives ß-cell proliferation',
+        title: 'ER stress relief drives β-cell proliferation',
         authors: 'Bourgeois S; Van Mulders A; Heremans Y, et al., Tong Y, et al.',
         year: 2024,
-        journal: 'Submitted to Diabetologia',
+        journal: 'Under review in Diabetologia',
         link: '',
       },
       {
