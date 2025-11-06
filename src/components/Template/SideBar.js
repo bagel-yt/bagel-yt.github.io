@@ -41,8 +41,9 @@ const SideBar = () => (
         clinical background.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am currently developing strong interests toward developmental biology and a phylogenetic
-        understanding of disease development, hoping to generate some evolutionary insights.
+        I am currently based in the United Kingdom, developing strong interests toward
+        developmental biology and a phylogenetic  understanding of disease development,
+        hoping to generate some evolutionary insights.
       </p>
       <ul className="actions">
         <li>

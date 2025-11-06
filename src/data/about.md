@@ -18,7 +18,7 @@ in a variant-specific model that replicates β cell phenotype seen in individual
 &nbsp;
 
 Meanwhile, I've been very lucky to be able to actively participate and been extensively exposed to and got hands-on experiences with
-both bioinformatics and phylogenetic studies during the past years. Currently, I'm working with 
+both bioinformatics and phylogenetic studies during the past years. Currently, I based in the United Kingdom, working with 
 [Dr Bingxin Lu](https://icelu.github.io/) and [Dr Ruolin Wu](https://lynnwrl.github.io/) on 
 "Reconstructing Evolutionary dynamics of Copy number Alterations from Multiple samples across cancer types".
 
