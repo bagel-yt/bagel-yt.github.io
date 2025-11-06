@@ -1,6 +1,6 @@
 # Intro
 
-I am a last year PhD candidate at [ULB Center for Diabetes Research](https://www.ucdr.be) under the
+I am a stem cell biologist, completed my PhD at [ULB Center for Diabetes Research](https://www.ucdr.be) under the
 supervision of [Prof Miriam Cnop](https://en.wikipedia.org/wiki/Miriam_Cnop). 
 
 &nbsp;
@@ -12,13 +12,15 @@ disease mechanisms.
 
 &nbsp;
 
-Leveraging clinical and omics resources, my current work utilizes iPSC-derived islets to understand disease mechanisms 
+Leveraging clinical and omics resources, my PhD work utilizes iPSC-derived islets to understand disease mechanisms 
 in a variant-specific model that replicates β cell phenotype seen in individuals with rare SNP-associated and monogenic diabetes.
 
 &nbsp;
 
 Meanwhile, I've been very lucky to be able to actively participate and been extensively exposed to and got hands-on experiences with
-both bioinformatics and phylogenetics studies during the past years. 
+both bioinformatics and phylogenetic studies during the past years. Currently, I'm working with 
+[Dr Bingxin Lu](https://icelu.github.io/) and [Dr Ruolin Wu](https://lynnwrl.github.io/) on 
+"Reconstructing Evolutionary dynamics of Copy number Alterations from Multiple samples across cancer types".
 
 &nbsp;
 
@@ -33,7 +35,7 @@ These experience fostered my interest in the following areas, toward which I wou
 
 3) `Translational Studies` and/or `Product Development` Moving bench discoveries into clinical and everyday life.
 
-4) `Phylogenetics Studies` Reconstructing evolutionary histories of genes, pathways, and species. (My lucky bonus if I got the chance!)
+4) `Phylogenetics Studies` and `Developmental Biology` Reconstructing evolutionary histories of genes, pathways, and species. (My lucky bonus if I got the chance!)
 
 # I Like
 

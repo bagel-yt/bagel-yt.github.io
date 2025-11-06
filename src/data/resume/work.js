@@ -20,6 +20,7 @@ const work = [
       { name: 'F.R.S.-FNRS', url: 'https://www.frs-fnrs.be/en/' },
     ],
     startDate: '2020-10-01',
+    endDate: '2025-09-30',
     summary: '',
     highlights: [
       'Leveraged 10+ clinical and omics resources in defining disease-driven genetic variants and cellular states.',

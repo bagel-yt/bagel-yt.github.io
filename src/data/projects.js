@@ -19,7 +19,7 @@ const data = [
         title: 'A New Form of Diabetes Caused by INS Mutations Defined by Zygosity, Stem Cell and Population Data',
         authors: 'Tong Y, Becker M, Schierloh U, et al.',
         year: 2025,
-        journal: 'Under review in EMBO Molecular Medicine',
+        journal: 'In revision with EMBO Molecular Medicine',
         link: '',
       },
       {
@@ -33,7 +33,7 @@ const data = [
         title: 'A critical role for iron import through the transferrin receptor in developing beta-cells',
         authors: 'Van Mulders A, Willems L, Coenen S, et al., Tong Y, et al.',
         year: 2025,
-        journal: 'Under review in Nature Communication',
+        journal: 'In revision with Nature Communication',
         link: '',
       },
       {
@@ -44,11 +44,18 @@ const data = [
         link: 'https://www.medrxiv.org/content/10.1101/2024.07.15.24310282v1',
       },
       {
+        title: 'Identification of novel type 1 and type 2 diabetes genes by co-localization of human islet eQTL and GWAS variants with colocRedRibbon',
+        authors: 'Piron A; Szymczak F; Folon L; et al., Tong Y, et al.',
+        year: 2025,
+        journal: 'Cell Genomics',
+        link: 'https://www.sciencedirect.com/science/article/pii/S2666979X25002605?via%3Dihub',
+      },
+      {
         title: 'ER stress relief drives β-cell proliferation',
         authors: 'Bourgeois S; Van Mulders A; Heremans Y, et al., Tong Y, et al.',
         year: 2024,
-        journal: 'Under review in Diabetologia',
-        link: '',
+        journal: 'In revision at Diabetologia',
+        link: 'https://www.biorxiv.org/content/10.1101/2024.09.06.611615v1',
       },
       {
         title: 'Proinsulin folding and trafficking defects trigger a common pathological disturbance of endoplasmic reticulum homeostasis',

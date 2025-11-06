@@ -3,7 +3,7 @@ const degrees = [
     school: 'ULB Center for Diabetes Research, Université Libre de Bruxelles',
     degree: 'PhD of Biomedical and Pharmaceutical Science',
     link: 'https://www.ucdr.be',
-    year: '2020 - present',
+    year: '2025',
   },
   {
     school: 'National Key Lab of Diabetes Immunology & The 2nd Xiangya Hospital, Central South University',

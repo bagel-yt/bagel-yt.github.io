@@ -50,7 +50,7 @@ const skills = [
     category: ['Cell Biology'],
   },
   {
-    title: 'Organoid Technology',
+    title: 'Organoids Technology',
     competency: 5,
     category: ['Cell Biology'],
   },
