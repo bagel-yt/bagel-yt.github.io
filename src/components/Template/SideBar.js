@@ -25,22 +25,23 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am currently a final year PhD candidate at
+        I am stem cell biologist completed my PhD in
         {' '}
-        <a href="https://www.ucdr.be/">ULB Center for Diabetes Research</a> & FRIA doctoral fellow
+        <a href="https://www.ucdr.be/">ULB Center for Diabetes Research</a> as a FRIA doctoral fellow
         of
         {' '}
         <a href="https://www.frs-fnrs.be/en/">F.R.S.-FNRS</a>.
-        My research focuses on unraveling
+        My research focused on unraveling
         disease mechanisms with organoid technology, genome editing and multi-omics approaches.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
         Currently, I am seeking to develop a career in multidisciplinary biomedical research —
-        spanning molecular genetics, bioinformatics, stem cell biology, translational studies
-        and product development — leveraging my extensive laboratory and clinical background.
+        spanning molecular genetics, stem cell biology,
+        translational studies and product development — leveraging my extensive laboratory and
+        clinical background.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am also cultivating a strong interest toward a phylogenetics
+        I am currently developing strong interests toward developmental biology and a phylogenetic
         understanding of disease development, hoping to generate some evolutionary insights.
       </p>
       <ul className="actions">
