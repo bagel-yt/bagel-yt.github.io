@@ -32,9 +32,9 @@ const SideBar = () => (
         laboratory and clinical training, to support target discovery and therapeutic development.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        Currently based in the United Kingdom, I am developing a growing interest in developmental and
-        evolutionary perspectives on disease, including phylogenetic approaches to understanding disease
-        progression and heterogeneity.
+        Currently based in the United Kingdom, I am developing a growing interest in developmental
+        and evolutionary perspectives on disease, including phylogenetic approaches to understanding
+        disease progression and heterogeneity.
       </p>
       <ul className="actions">
         <li>
