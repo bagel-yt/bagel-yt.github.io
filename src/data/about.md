@@ -5,8 +5,12 @@ My academic and clinical training spans medicine, stem cell biology, and transla
 disease modeling with organoids, and genomics-driven projects, I have developed a multidisciplinary perspective on how complex 
 diseases emerge, progress, and diversify.
 
+&nbsp;
+
 These experiences have shaped my interest in leading and contributing to biomedical 
 research that integrates experimental platforms, molecular genetics, and evolutionary thinking.
+
+&nbsp;
 
 In particular, my interests center on:
 
@@ -35,7 +39,7 @@ in a variant-specific model that replicates β cell phenotype seen in individual
 
 Meanwhile, I've been very lucky to be able to actively participate and been extensively exposed to and got hands-on experiences with
 both bioinformatics and phylogenetic studies during the past years. Currently, I based in the United Kingdom, working with 
-[Dr Bingxin Lu](https://icelu.github.io/) and [Dr Ruolin Wu](https://lynnwrl.github.io/) on 
+[Dr Bingxin Lu (卢冰心)](https://icelu.github.io/) and [Dr Ruolin Wu (吴若琳)](https://lynnwrl.github.io/) on 
 "Reconstructing Evolutionary dynamics of Copy number Alterations from Multiple samples across cancer types".
 
 &nbsp;
