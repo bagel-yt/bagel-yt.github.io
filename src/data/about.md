@@ -14,7 +14,7 @@ research that integrates experimental platforms, molecular genetics, and evoluti
 
 In particular, my interests center on:
 
-1. **Project Leadership and Research Coordination**
+1. **Project Management and Research Coordination**
 2. **Stem Cell Biology**
 3. **Molecular Genetics and Genomics**
 4. **Phylogenetics and Evolutionary Biology**

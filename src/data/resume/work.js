@@ -18,8 +18,8 @@ const work = [
     institutes: [
       { name: 'School of Biosciences, University of Surrey', url: 'https://www.surrey.ac.uk/school-biosciences' },
     ],
-    startDate: '2017-09-01',
-    endDate: '2020-06-30',
+    startDate: '2025-11-01',
+    endDate: 'Present',
     summary: '',
     highlights: [
       'Curated analysis-ready cancer genomics datasets (Whole Genome Sequencing, Copy Number Variations).',
