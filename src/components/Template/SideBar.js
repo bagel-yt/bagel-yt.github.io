@@ -14,9 +14,6 @@ const SideBar = () => (
       <header>
         <h2>Yue Tong 童 越</h2>
         <p>
-          <a href="mailto:yue.tong@ulb.be">yue.tong@ulb.be</a>
-        </p>
-        <p>
           <a href="mailto:yue.tong94@gmail.com">yue.tong94@gmail.com</a>
         </p>
       </header>
@@ -25,25 +22,19 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am stem cell biologist completed my PhD in
-        {' '}
-        <a href="https://www.ucdr.be/">ULB Center for Diabetes Research</a> as a FRIA doctoral fellow
-        of
-        {' '}
-        <a href="https://www.frs-fnrs.be/en/">F.R.S.-FNRS</a>.
-        My research focused on unraveling
-        disease mechanisms with organoid technology, genome editing and multi-omics approaches.
+        I am an interdisciplinary biomedical researcher with clinical training as a physician.
+        My research has focused on unraveling disease mechanisms using organoid-based models,
+        genome editing, and integrative molecular approaches.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        Currently, I am seeking to develop a career in multidisciplinary biomedical research —
-        spanning molecular genetics, stem cell biology,
-        translational studies and product development — leveraging my extensive laboratory and
-        clinical background.
+        I am interested in building a career in translational biomedical research spanning
+        molecular genetics, stem cell biology, and disease modeling, drawing on my combined
+        laboratory and clinical training, to support target discovery and therapeutic development.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am currently based in the United Kingdom, developing strong interests toward
-        developmental biology and a phylogenetic  understanding of disease development,
-        hoping to generate some evolutionary insights.
+        Currently based in the United Kingdom, I am developing a growing interest in developmental and
+        evolutionary perspectives on disease, including phylogenetic approaches to understanding disease
+        progression and heterogeneity.
       </p>
       <ul className="actions">
         <li>

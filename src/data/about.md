@@ -1,7 +1,23 @@
 # Intro
 
-I am a stem cell biologist, completed my PhD at [ULB Center for Diabetes Research](https://www.ucdr.be) under the
-supervision of [Prof Miriam Cnop](https://en.wikipedia.org/wiki/Miriam_Cnop). 
+I am an interdisciplinary biomedical researcher. 
+My academic and clinical training spans medicine, stem cell biology, and translational research. Through clinical practice, 
+disease modeling with organoids, and genomics-driven projects, I have developed a multidisciplinary perspective on how complex 
+diseases emerge, progress, and diversify.
+
+These experiences have shaped my interest in leading and contributing to biomedical 
+research that integrates experimental platforms, molecular genetics, and evolutionary thinking.
+
+In particular, my interests center on:
+
+1. **Project Leadership and Research Coordination**
+2. **Stem Cell Biology**
+3. **Molecular Genetics and Genomics**
+4. **Phylogenetics and Evolutionary Biology**
+
+I completed my PhD at [ULB Center for Diabetes Research](https://www.ucdr.be) under the
+supervision of [Prof Miriam Cnop](https://en.wikipedia.org/wiki/Miriam_Cnop), where my work focused on disease mechanism 
+discovery using stem cell- and organoid-based models in a translational research setting. 
 
 &nbsp;
 
@@ -24,22 +40,9 @@ both bioinformatics and phylogenetic studies during the past years. Currently, I
 
 &nbsp;
 
-In this regard, I am cultivating an interest toward a genomics-driven understanding of disease development, 
-hoping to generate some evolutionary insights.
-
-These experience fostered my interest in the following areas, toward which I would like to pursuit in my future.
-
-1) `Molecular Genetics` and/or `Bioinformatics` Discovering and interpreting genetic variants and regulatory elements.
-
-2) `Stem Cell Biology` Deciphering mechanisms of pluripotency and lineage commitment.
-
-3) `Translational Studies` and/or `Product Development` Moving bench discoveries into clinical and everyday life.
-
-4) `Phylogenetics Studies` and `Developmental Biology` Reconstructing evolutionary histories of genes, pathways, and species. (My lucky bonus if I got the chance!)
-
 # I Like
 
-- Rope Climbing and/or Bouldering (Highest priority: safe and soft descending.)
+- Climbing and/or Bouldering (Always rethinking)
 - Hiking (Lite version.)
 - Fossil hunting (Usually find Belemnoidea instead of Ammonoidea.)
 - Star gazing (I've seen the most beautiful Venus.)

@@ -22,62 +22,62 @@ const skills = [
   {
     title: 'Bash',
     competency: 2,
-    category: ['Data Science'],
+    category: ['Scientific & Strategic Analysis'],
   },
   {
     title: 'Git',
     competency: 2,
-    category: ['Data Science'],
+    category: ['Scientific & Strategic Analysis'],
   },
   {
     title: 'Python',
     competency: 3,
-    category: ['Languages'],
+    category: ['Scientific & Strategic Analysis'],
   },
   {
     title: 'R',
     competency: 3,
-    category: ['Languages'],
+    category: ['Scientific & Strategic Analysis'],
   },
   {
-    title: 'Data Visualization (ggplot2, matplotlib)',
+    title: 'Data Visualization',
     competency: 4,
-    category: ['Data Science'],
+    category: ['Scientific & Strategic Analysis'],
   },
   {
     title: 'Stem Cell Tehcnology',
     competency: 5,
-    category: ['Cell Biology'],
+    category: ['Molecular and Cell Biology'],
   },
   {
     title: 'Organoids Technology',
     competency: 5,
-    category: ['Cell Biology'],
+    category: ['Molecular and Cell Biology'],
   },
   {
     title: 'Cell & Tissue Imaging',
     competency: 4,
-    category: ['Cell Biology'],
+    category: ['Molecular and Cell Biology'],
   },
   {
     title: 'Cell Engineering (CRISPR/Cas, transfection)',
     competency: 5,
-    category: ['Cell Biology'],
+    category: ['Molecular and Cell Biology'],
   },
   {
     title: 'DNA and RNA Sequencing Technologies',
     competency: 4,
-    category: ['Molecular Biology'],
+    category: ['Molecular and Cell Biology'],
   },
   {
     title: 'Protein quantification (Western Blotting, ELISA, BCA)',
     competency: 4,
-    category: ['Molecular Biology'],
+    category: ['Molecular and Cell Biology'],
   },
   {
     title: 'Cell Sorting (Flow Cytometry, MACS)',
     competency: 4,
-    category: ['Molecular Biology'],
+    category: ['Molecular and Cell Biology'],
   },
   {
     title: 'Transcriptomics',
@@ -99,6 +99,31 @@ const skills = [
     competency: 5,
     category: ['Clinical Practice'],
   },
+  {
+    title: 'Project Planning',
+    competency: 5,
+    category: ['Project Management'],
+  },
+  {
+    title: 'Milestone Tracking',
+    competency: 5,
+    category: ['Project Management'],
+  },
+  {
+    title: 'Interdisciplinary Coordination',
+    competency: 5,
+    category: ['Project Management'],
+  },
+  {
+    title: 'Workflow Standardization and Automation',
+    competency: 3,
+    category: ['Scientific & Strategic Analysis'],
+  },
+  {
+    title: 'Hypothesis-driven Analysis,',
+    competency: 5,
+    category: ['Scientific & Strategic Analysis'],
+  },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be === to the
@@ -109,17 +134,15 @@ const colors = [
   '#FE6100',
   '#785EF0',
   '#FFB000',
-  '#424242',
   '#767676',
 ];
 
 // Define the custom order for the categories
 const desiredOrder = [
-  'Data Science',
+  'Project Management',
   'Computational Biology',
-  'Languages',
-  'Molecular Biology',
-  'Cell Biology',
+  'Scientific & Strategic Analysis',
+  'Molecular and Cell Biology',
   'Clinical Practice',
   'Human Languages',
 ];

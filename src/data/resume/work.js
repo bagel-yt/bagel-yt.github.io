@@ -14,6 +14,21 @@
  */
 const work = [
   {
+    position: 'Visiting Researcher 🧑🏻‍⚕️',
+    institutes: [
+      { name: 'School of Biosciences, University of Surrey', url: 'https://www.surrey.ac.uk/school-biosciences' },
+    ],
+    startDate: '2017-09-01',
+    endDate: '2020-06-30',
+    summary: '',
+    highlights: [
+      'Curated analysis-ready cancer genomics datasets (Whole Genome Sequencing, Copy Number Variations).',
+      'Benchmarked cancer phylogeny tools to inform method selection across datasets.',
+      'Built reproducible command-line workflows for data processing and evaluation.',
+      'Delivered concise analytical summaries and visual outputs for interpretation and comparison.',
+    ],
+  },
+  {
     position: 'FRIA (Fund For Research Training in Industry AND Agriculture) Doctoral Fellow 🧑🏻‍🔬',
     institutes: [
       { name: 'Center for Diabetes Research, ULB', url: 'https://www.ucdr.be' },
@@ -24,9 +39,11 @@ const work = [
     summary: '',
     highlights: [
       'Leveraged 10+ clinical and omics resources in defining disease-driven genetic variants and cellular states.',
-      'Developed and coordinated 8 disease-specific models using iPSC-derived islets.',
+      'Coordinated the development and validation of 8 stem-cell and organoid disease models, integrating clinical data, cellular functional assays, and transcriptomics into reusable translational platforms.',
       'Spearheaded investigations on how defective insulin biosynthesis, ER-Golgi stress, and gluco-lipotoxicity contribute to diabetes.',
-      'Achieved 6 manuscripts elucidating physiological organ development and disease mechanisms in diabetes.',
+      'Assembled and coordinated multiple collaborative teams across laboratories and institutions, aligning data sharing, standardized protocols, and joint reporting into shared project deliverables.',
+      'Delivered multiple completed research projects with defined timelines and documented outputs.',
+      'Achieved 7 manuscripts elucidating physiological organ development and disease mechanisms in diabetes.',
     ],
   },
   {
@@ -38,9 +55,9 @@ const work = [
     endDate: '2020-06-30',
     summary: '',
     highlights: [
-      'Conceptualized studies in biomarker-based disease classification through clinical observations and literature review.',
-      'Oversaw the recruitment and followup of 1000+ participants in 3 clinical trials ensuring standardization of protocols.',
-      'Processed comprehensive clinical and laboratory datasets to identify biomarker patterns and validate clinical relevance.',
+      'Delivered a curated longitudinal dataset from a 1,000-participant diabetes cohort for downstream analysis.',
+      'Produced biomarker-based disease stratification results through integrated statistical analyses.',
+      'Implemented standardized clinical and data-collection protocols to ensure data consistency and reliability.',
       'Achieved 3 publication highlighting the potential of biomarkers to improve disease classification and prediction.',
     ],
   },
@@ -54,8 +71,8 @@ const work = [
     endDate: '2020-06-30',
     summary: '',
     highlights: [
-      'Delivered comprehensive diabetes management with a focus on treatment planning, early diagnosis, and lifestyle counseling.',
-      'Demonstrated expertise in laboratory methods and diagnostic techniques, ensuring high standards in clinical practice.',
+      'Supported >300 patients annually through personalized treatment plans integrating lifestyle interventions and pharmacological management.',
+      'Partnered with multidisciplinary teams to optimize diabetes care pathways, reducing follow-up delays and improving clinical record systems.',
       'Certified with Physician Credentials and Medical Licensure in P. R. China, qualifying for national medical practice.',
     ],
   },

@@ -19,7 +19,7 @@ const data = [
         title: 'A New Form of Diabetes Caused by INS Mutations Defined by Zygosity, Stem Cell and Population Data',
         authors: 'Tong Y, Becker M, Schierloh U, et al.',
         year: 2025,
-        journal: 'In revision with EMBO Molecular Medicine',
+        journal: 'Accepted for Publication at EMBO Molecular Medicine',
         link: '',
       },
       {
@@ -33,7 +33,7 @@ const data = [
         title: 'A critical role for iron import through the transferrin receptor in developing beta-cells',
         authors: 'Van Mulders A, Willems L, Coenen S, et al., Tong Y, et al.',
         year: 2025,
-        journal: 'In revision with Nature Communication',
+        journal: 'In revision with Nature Communications',
         link: '',
       },
       {
@@ -54,7 +54,7 @@ const data = [
         title: 'ER stress relief drives β-cell proliferation',
         authors: 'Bourgeois S; Van Mulders A; Heremans Y, et al., Tong Y, et al.',
         year: 2024,
-        journal: 'In revision at Diabetologia',
+        journal: 'Accepted for Publication at Diabetologia',
         link: 'https://www.biorxiv.org/content/10.1101/2024.09.06.611615v1',
       },
       {
@@ -98,13 +98,41 @@ const data = [
     ],
   },
   {
+    title: 'Phylogenetics and Evolution',
+    subtitle: '',
+    authors: '',
+    image: '',
+    desc:
+      'Phylogenetic and evolutionary approaches offer a quantitative framework for reconstructing '
+      + 'biological history and heterogeneity. By integrating evolutionary '
+      + 'models with empirical evidence, these methods enable inference of lineage relationships, '
+      + 'temporal origins, and diversification dynamics.'
+      + ' In cancer, '
+      + 'phylogenetic analyses of sequencing data are used to infer tumor evolutionary histories '
+      + 'and clonal structure. In evolutionary biology, fossil records are quantitatively integrated '
+      + 'with molecular clocks to investigate the origin and early diversification of angiosperms. '
+      + 'Together, these applications demonstrate the broad utility of evolutionary frameworks across scales, '
+      + 'from disease evolution to deep-time biodiversity.',
+    meetings: [
+      {
+        title: 'Origin of angiosperms: quantitative integration of fossil records and the molecular clock',
+        type: 'Poster',
+        events: [
+          { name: 'The Palaeontological Association Annual Meeting 2025', url: 'https://palass.org/' },
+        ],
+        year: '2024',
+        location: 'Erlangen, China',
+      },
+    ],
+  },
+  {
     title: 'Biomarkers in classifying and predicting diabetes',
     subtitle: '',
     authors: '',
     image: '',
     desc:
       'The classification and prediction of diabetes are essential for early diagnosis and effective management.'
-      + '  Bearing the peripherally accessible nature, molecular and physiological biomarkers provide valuable '
+      + ' Bearing the peripherally accessible nature, molecular and physiological biomarkers provide valuable '
       + 'insights into the mechanisms underlying disease heterogeneity and development, including beta-cell dysfunction, '
       + 'immune responses, and metabolic dysregulation. These findings highlight the potential of biomarkers to improve '
       + 'disease classification and enable precision medicine in clinical diabetes care.',
