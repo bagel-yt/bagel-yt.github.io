@@ -6,9 +6,9 @@ import dayjs from 'dayjs';
  */
 const data = [
   {
-    label: 'Last updated at',
-    key: 'updated_at',
-    link: 'https://github.com/bagel-yt/bagel-yt.github.io/commits/main/',
+    label: 'Last commit',
+    key: 'pushed_at',
+    link: 'https://github.com/bagel-yt/bagel-yt.github.io/commits/',
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
   },
 ];
