@@ -118,10 +118,10 @@ const data = [
         title: 'Origin of angiosperms: quantitative integration of fossil records and the molecular clock',
         type: 'Poster',
         events: [
-          { name: 'The Palaeontological Association Annual Meeting 2025', url: 'https://palass.org/' },
+          { name: 'The Palaeontological Association Annual Meeting 2024', url: 'https://palass.org/' },
         ],
         year: '2024',
-        location: 'Erlangen, China',
+        location: 'Erlangen, Germany',
       },
     ],
   },
