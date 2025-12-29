@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import Award from './Experience/Award';
 
-const Awards = ({ data = [] }) => (
+const Awards = ({ data }) => (
   <div className="awards">
     <div className="link-to" id="awards" />
     <div className="title">
@@ -24,6 +24,10 @@ Awards.propTypes = {
       year: PropTypes.string,
     }),
   ),
+};
+
+Awards.defaultProps = {
+  data: [],
 };
 
 export default Awards;

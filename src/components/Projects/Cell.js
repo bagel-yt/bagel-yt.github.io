@@ -72,18 +72,18 @@ const Cell = ({ data }) => {
                 const key = `${pub.fileName || pub.link || pub.title}-${idx}`;
                 return (
                   <li key={key}>
-                  {pub.fileName ? (
-                    <a href={`${PUBLIC_URL}/${pub.fileName}`} download>
-                      {pub.title}
-                    </a>
-                  ) : (
-                    <a href={pub.link} target="_blank" rel="noopener noreferrer">
-                      {pub.title}
-                    </a>
-                  )}
-                  {pub.authors ? `, by ${pub.authors}` : ''}
-                  {pub.journal ? `, ${pub.journal}` : ''}
-                  {pub.year ? ` (${pub.year})` : ''}
+                    {pub.fileName ? (
+                      <a href={`${PUBLIC_URL}/${pub.fileName}`} download>
+                        {pub.title}
+                      </a>
+                    ) : (
+                      <a href={pub.link} target="_blank" rel="noopener noreferrer">
+                        {pub.title}
+                      </a>
+                    )}
+                    {pub.authors ? `, by ${pub.authors}` : ''}
+                    {pub.journal ? `, ${pub.journal}` : ''}
+                    {pub.year ? ` (${pub.year})` : ''}
                   </li>
                 );
               })}

@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Meeting from './Experience/Meeting';
 
-const Meetings = ({ data = [] }) => (
+const Meetings = ({ data }) => (
   <div className="meetings">
     <div className="link-to" id="meetings" />
     <div className="title">
@@ -31,6 +31,10 @@ Meetings.propTypes = {
       location: PropTypes.string.isRequired, // Event location
     }),
   ),
+};
+
+Meetings.defaultProps = {
+  data: [],
 };
 
 export default Meetings;

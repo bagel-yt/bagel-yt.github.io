@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const TableRow = ({
-  label, link = null, value = null, format = (x) => x,
+  label, link, value, format,
 }) => (
   <tr>
     <td width="70%">{label}</td>
@@ -19,6 +19,12 @@ TableRow.propTypes = {
     PropTypes.number,
     PropTypes.string,
   ]),
+};
+
+TableRow.defaultProps = {
+  format: (x) => x,
+  link: null,
+  value: null,
 };
 
 export default TableRow;

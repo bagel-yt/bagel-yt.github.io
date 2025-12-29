@@ -20,7 +20,7 @@ const getRows = (courses) => courses
     />
   ));
 
-const Courses = ({ data = [] }) => (
+const Courses = ({ data }) => (
   <div className="courses">
     <div className="link-to" id="courses" />
     <div className="title">
@@ -39,6 +39,10 @@ Courses.propTypes = {
       university: PropTypes.string,
     }),
   ),
+};
+
+Courses.defaultProps = {
+  data: [],
 };
 
 export default Courses;
