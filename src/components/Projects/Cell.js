@@ -68,8 +68,10 @@ const Cell = ({ data }) => {
           <div className="related-publications">
             <h3>Related Publications</h3>
             <ul>
-              {data.relatedPublications.map((pub) => (
-                <li key={pub.fileName || pub.link || pub.title}>
+              {data.relatedPublications.map((pub, idx) => {
+                const key = `${pub.fileName || pub.link || pub.title}-${idx}`;
+                return (
+                  <li key={key}>
                   {pub.fileName ? (
                     <a href={`${PUBLIC_URL}/${pub.fileName}`} download>
                       {pub.title}
@@ -82,8 +84,9 @@ const Cell = ({ data }) => {
                   {pub.authors ? `, by ${pub.authors}` : ''}
                   {pub.journal ? `, ${pub.journal}` : ''}
                   {pub.year ? ` (${pub.year})` : ''}
-                </li>
-              ))}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         ) : null}

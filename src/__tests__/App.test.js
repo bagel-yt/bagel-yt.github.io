@@ -4,9 +4,8 @@
 
 import '@testing-library/jest-dom';
 import '@testing-library/react';
-import React from 'react';
+import React, { act } from 'react';
 import ReactDOM from 'react-dom/client';
-import { act } from 'react-dom/test-utils';
 import App from '../App';
 
 describe('renders the app', () => {
@@ -89,12 +88,10 @@ describe('renders the app', () => {
 
   it('can navigate to /stats', async () => {
     expect.assertions(5);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(4) > a',
-    );
-    expect(contactLink).toBeInTheDocument();
+    const statsLink = document.querySelector('a[href="/stats"]');
+    expect(statsLink).toBeInTheDocument();
     await act(async () => {
-      await contactLink.click();
+      await statsLink.click();
     });
     expect(document.title).toContain('Stats |');
     expect(window.location.pathname).toBe('/stats');
@@ -104,9 +101,7 @@ describe('renders the app', () => {
 
   it('can navigate to /contact', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(5) > a',
-    );
+    const contactLink = document.querySelector('a[href="/contact"]');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();

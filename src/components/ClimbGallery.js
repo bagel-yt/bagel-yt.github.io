@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 const { PUBLIC_URL } = process.env;
 
-const ClimbGallery = ({ items, speed }) => {
+const ClimbGallery = ({ items, speed = 45 }) => {
   const reel = [...items, ...items]; // Duplicate for seamless loop
-  const animationDuration = `${speed || 45}s`;
+  const animationDuration = `${speed}s`;
 
   return (
     <section className="climb-gallery">
@@ -37,10 +37,6 @@ ClimbGallery.propTypes = {
     }),
   ).isRequired,
   speed: PropTypes.number,
-};
-
-ClimbGallery.defaultProps = {
-  speed: 45,
 };
 
 export default ClimbGallery;
