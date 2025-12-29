@@ -1,7 +1,7 @@
 import { faGoogleScholar } from '@fortawesome/free-brands-svg-icons/faGoogleScholar';
 import { faOrcid } from '@fortawesome/free-brands-svg-icons/faOrcid';
 // import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-// import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 // import { faAngellist } from '@fortawesome/free-brands-svg-icons/faAngellist';
 // import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 // import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
@@ -20,9 +20,9 @@ const data = [
     icon: faOrcid,
   },
   {
-    // link: 'https://github.com/SmartBagel',
-    // label: 'Github',
-    // icon: faGithub,
+    link: 'www.linkedin.com/in/yue-tong',
+    label: 'LinkedIn',
+    icon: faLinkedinIn,
   },
 ];
 

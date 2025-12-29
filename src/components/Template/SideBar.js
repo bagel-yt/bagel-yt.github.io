@@ -22,19 +22,22 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am an interdisciplinary biomedical researcher with clinical training as a physician.
-        My research has focused on unraveling disease mechanisms using organoid-based models,
-        genome editing, and integrative molecular approaches.
+        I am a PhD-trained biomedical scientist. My work has focused on
+        translational disease modelling using stem cell–derived organoids,
+        genome editing, and integrative molecular analyses.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am interested in building a career in translational biomedical research spanning
-        molecular genetics, stem cell biology, and disease modeling, drawing on my combined
-        laboratory and clinical training, to support target discovery and therapeutic development.
+        I am interested in building a career in pharmaceutical,
+        biotechnology, or CRO environments, drawing on my background
+        in experimental disease modelling, data analysis,
+        and cross-functional project coordination to support target
+        discovery and therapeutic development.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        Currently based in the United Kingdom, I am developing a growing interest in developmental
-        and evolutionary perspectives on disease, including phylogenetic approaches to understanding
-        disease progression and heterogeneity.
+        Currently based in the United Kingdom, I combine data-driven
+        research with broader interests in evolutionary perspectives
+        on disease, and maintain an active climbing practice that
+        emphasizes preparation, risk awareness, and structured progression.
       </p>
       <ul className="actions">
         <li>

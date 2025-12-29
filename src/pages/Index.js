@@ -26,11 +26,11 @@ const Index = () => (
       <p style={{ fontSize: '1.1em' }}>
         {' '}
         Please feel free to click around and read more
-        {' '}<Link to="/about" style={{ fontWeight: 'bold' }}>about me</Link>,
-        or you can check out my{' '}<Link to="/resume" style={{ fontWeight: 'bold' }}>resume</Link>,
-        download my <a href={`${PUBLIC_URL}/yuetong_cv.pdf`} download="yuetong_cv.pdf" style={{ fontWeight: 'bold' }}>research CV </a>
+        {' '}<Link to="/about" style={{ fontWeight: 'bold' }}>about me </Link>,
+        {' '}<Link to="/resume" style={{ fontWeight: 'bold' }}>my resume </Link> ,and
+        {' '}<Link to="/projects" style={{ fontWeight: 'bold' }}>my research</Link> in an interactive way,
+        or if you prefer, you can download my <a href={`${PUBLIC_URL}/yuetong_cv.pdf`} download="yuetong_cv.pdf" style={{ fontWeight: 'bold' }}>research CV </a>
         or <a href={`${PUBLIC_URL}/yuetong_cv_in.pdf`} download="yuetong_cv_in.pdf" style={{ fontWeight: 'bold' }}>professional CV</a>,
-        read about my{' '}<Link to="/projects" style={{ fontWeight: 'bold' }}> research</Link>,
         view {' '}<Link to="/stats" style={{ fontWeight: 'bold' }}>site statistics</Link>, or{' '}
         <Link to="/contact" style={{ fontWeight: 'bold' }}>contact me</Link>.
       </p>

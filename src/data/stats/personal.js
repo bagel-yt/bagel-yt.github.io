@@ -25,10 +25,16 @@ const data = [
     value: <Age />,
   },
   {
-    key: 'countries',
+    key: 'places',
     label: 'Places that I like',
-    value: 58,
-    link: 'https://www.google.com/maps/d/u/1/embed?mid=18OHKpNHWAuM57ePKnr-fNluQiGBt1h4&ehbc=2E312F',
+    value: 55,
+    link: 'https://www.google.com/maps/d/viewer?mid=18OHKpNHWAuM57ePKnr-fNluQiGBt1h4&usp=sharing',
+  },
+  {
+    key: 'climbs',
+    label: 'climbing gyms that I like',
+    value: 16,
+    link: 'https://www.google.com/maps/d/viewer?mid=1B-ag8lqemSBdTcMKb4oNd4mNDXidf2o&usp=sharing',
   },
   {
     key: 'location',

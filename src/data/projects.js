@@ -96,6 +96,37 @@ const data = [
         location: 'Paris, France',
       },
     ],
+    blocksTitle: 'Technologies & Focus Areas',
+    blocks: [
+      {
+        title: 'Technologies',
+        sections: [
+          {
+            title: 'Platforms',
+            items: [
+              { id: 'crispr', text: 'CRISPR/Cas9 gene editing' },
+              { id: 'organoid', text: 'iPSC-derived organoids' },
+            ],
+          },
+          {
+            title: 'Models',
+            items: [
+              { id: 'beta', text: 'Patient-specific organoid models' },
+              { id: 'stress', text: 'ER/metabolic stress perturbation assays' },
+              { id: 'screen', text: 'Functional rescue compound screens' },
+            ],
+          },
+          {
+            title: 'Focus',
+            items: [
+              { id: 'variants', text: 'Rare SNP / monogenic variants' },
+              { id: 'phenotype', text: 'Clinical-genomic phenotype matching' },
+              { id: 'translation', text: 'Therapeutic translation rescuing cellular failure' },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     title: 'Phylogenetics and Evolution',
@@ -122,6 +153,29 @@ const data = [
         ],
         year: '2024',
         location: 'Erlangen, Germany',
+      },
+    ],
+    blocksTitle: 'Evolutionary Frameworks',
+    blocks: [
+      {
+        title: 'Quantitative Approaches',
+        sections: [
+          {
+            title: 'Methods',
+            items: [
+              { id: 'bayes', text: 'Bayesian phylogenetic inference' },
+              { id: 'med', text: 'Minimum-Event Distance (MED)' },
+              { id: 'copy', text: 'Total-evidence fossil calibration' },
+            ],
+          },
+          {
+            title: 'Applications',
+            items: [
+              { id: 'tumor', text: 'Tumor clonal evolution reconstruction' },
+              { id: 'angio', text: 'Angiosperm origin timing' },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -168,6 +222,28 @@ const data = [
         ],
         year: '2020',
         location: 'Beijing, China',
+      },
+    ],
+    blocksTitle: 'Biomarker Strategy',
+    blocks: [
+      {
+        title: 'Clinical Translation',
+        sections: [
+          {
+            title: 'Modalities',
+            items: [
+              { id: 'serum', text: 'Serum proinsulin / C-peptide panels' },
+              { id: 'immune', text: 'Immune transcriptional signatures' },
+            ],
+          },
+          {
+            title: 'Use Cases',
+            items: [
+              { id: 'classification', text: 'Subtype classification (T1D, T2D, LADA)' },
+              { id: 'monitoring', text: 'Monitoring beta-cell dysfunction trajectories' },
+            ],
+          },
+        ],
       },
     ],
   },
