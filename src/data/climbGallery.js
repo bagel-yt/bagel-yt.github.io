@@ -19,7 +19,7 @@ const climbGallery = [
     alt: 'Volume',
     caption: 'Extending',
   },
-    {
+  {
     src: '/images/climbs/b5.jpg',
     alt: 'Volume',
     caption: 'Like a Bat',
@@ -54,17 +54,17 @@ const climbGallery = [
     alt: 'auto',
     caption: '7a in London',
   },
-    {
+  {
     src: '/images/climbs/s7.jpg',
     alt: 'auto',
     caption: 'Siunara 7a+',
   },
-      {
+  {
     src: '/images/climbs/s8.jpg',
     alt: 'auto',
     caption: 'Belay in shade',
   },
-      {
+  {
     src: '/images/climbs/s9.jpg',
     alt: 'auto',
     caption: 'To the sun',
