@@ -12,7 +12,7 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Yue Tong 童 越</h2>
+        <h2>Yue (Uri) Tong 童 越</h2>
         <p>
           <a href="mailto:yue.tong94@gmail.com">yue.tong94@gmail.com</a>
         </p>
@@ -22,7 +22,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am a PhD-trained biomedical scientist. My work has focused on
+        I am a PhD-trained biomedical professional. My work has focused on
         translational disease modelling using stem cell–derived organoids,
         genome editing, and integrative molecular analyses.
       </p>

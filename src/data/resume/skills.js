@@ -21,7 +21,7 @@ const skills = [
   },
   {
     title: 'Bash',
-    competency: 2,
+    competency: 3,
     category: ['Scientific & Strategic Analysis'],
   },
   {
@@ -31,12 +31,12 @@ const skills = [
   },
   {
     title: 'Python',
-    competency: 3,
+    competency: 4,
     category: ['Scientific & Strategic Analysis'],
   },
   {
     title: 'R',
-    competency: 3,
+    competency: 4,
     category: ['Scientific & Strategic Analysis'],
   },
   {

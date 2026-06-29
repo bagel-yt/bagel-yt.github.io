@@ -169,7 +169,7 @@ const climbs = [
               {
                 id: 'ki',
                 title: 'Kletterzentrum Innsbruck, AT',
-                text: 'I want to visit!',
+                text: 'Amazing facility! Find some routes from 1 year ago!',
                 link: 'https://www.kletterzentrum-innsbruck.at/en/',
               },
               {
@@ -187,13 +187,13 @@ const climbs = [
               {
                 id: 'jul2',
                 title: 'JUL²-Brakingassist Tubers',
-                text: 'Suitble for single rope, very comfortable for thick ropes in gyms.',
+                text: 'Suitble for single rope. Very comfortable for thick ropes in gyms.',
                 link: 'https://edelrid.com/gb-en/sport/belay-devices/jul-2?variant=1192',
               },
               {
                 id: 'pinch',
                 title: 'PINCH - Semi Automatic Belay Devices',
-                text: 'Saving one carabiner and one-arm slack.',
+                text: 'Saving one carabiner and one-arm slack. No rope above 9.5 mm.',
                 link: 'https://edelrid.com/gb-en/sport/belay-devices/pinch?sort=new_desc&filter%5Bkategorie_id%5D%5B0%5D=83&variant=4184339',
               },
               {

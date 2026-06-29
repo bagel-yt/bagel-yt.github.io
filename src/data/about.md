@@ -1,6 +1,6 @@
 # Intro
 
-I am an interdisciplinary biomedical scientist.
+I am an interdisciplinary biomedical professional.
 Through hands-on clinical practice, disease modelling using stem cell– and organoid-based systems, and genomics-driven projects, I have developed a multidisciplinary perspective on how complex diseases arise, progress, and diversify across individuals.
 
 &nbsp;
@@ -52,7 +52,7 @@ Outside of research, climbing has become an important long-term practice for me.
 
 # Extras
 
-- My stage/cafeteria name is "Bagel", but that hardly work in Brussels, so I adopted "Iris".
+- My stage/cafeteria name is "Bagel", but that hardly work in Brussels, so I adopted "Iris" but now officially Uriel (Uri).
 - I have a Podcast [七小时后](https://www.xiaoyuzhoufm.com/podcast/67d56f2e9283fc357d6fd399) for bedtime stories.
 - This website is an extended, more personal view to my CV — feel free to explore beyond the highlights.
 
