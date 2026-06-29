@@ -1,8 +1,11 @@
 .climb-gallery {
   margin: 25px 0 40px;
+  width: 100%;
+  overflow: hidden;
 
   .gallery-mask {
     overflow: hidden;
+    width: 100%;
     border-radius: 18px;
     background: radial-gradient(circle at 10% 20%, #f1f6ff, #ffffff 40%, #f8fbff);
     padding: 14px;
