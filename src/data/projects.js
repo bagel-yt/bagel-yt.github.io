@@ -18,9 +18,9 @@ const data = [
       {
         title: 'A New Form of Diabetes Caused by INS Mutations Defined by Zygosity, Stem Cell and Population Data',
         authors: 'Tong Y, Becker M, Schierloh U, et al.',
-        year: 2025,
-        journal: 'Accepted for Publication at EMBO Molecular Medicine',
-        link: '',
+        year: 2026,
+        journal: 'EMBO Molecular Medicine',
+        link: 'https://doi.org/10.1038/s44321-025-00362-9',
       },
       {
         title: 'Diabetes mellitus and the key role of endoplasmic reticulum stress in pancreatic β cells',
@@ -32,9 +32,9 @@ const data = [
       {
         title: 'A critical role for iron import through the transferrin receptor in developing beta-cells',
         authors: 'Van Mulders A, Willems L, Coenen S, et al., Tong Y, et al.',
-        year: 2025,
-        journal: 'In revision with Nature Communications',
-        link: '',
+        year: 2026,
+        journal: 'Nature Communications',
+        link: 'https://doi.org/10.1038/s41467-026-69574-y',
       },
       {
         title: 'Multi-omics characterization of type 2 diabetes associated genetic variation',
@@ -144,6 +144,15 @@ const data = [
       + 'with molecular clocks to investigate the origin and early diversification of angiosperms. '
       + 'Together, these applications demonstrate the broad utility of evolutionary frameworks across scales, '
       + 'from disease evolution to deep-time biodiversity.',
+    relatedPublications: [
+      {
+        title: 'Integrated analysis of fossils and molecular divergence time estimates a latest Jurassic origin of angiosperms',
+        authors: 'Wu R, Álvarez-Carretero S, Tong Y, et al.',
+        year: 2026,
+        journal: 'Nature Plants',
+        link: 'https://www.nature.com/articles/s41477-026-02311-x',
+      },
+    ],
     meetings: [
       {
         title: 'Origin of angiosperms: quantitative integration of fossil records and the molecular clock',

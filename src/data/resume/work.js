@@ -14,7 +14,18 @@
  */
 const work = [
   {
-    position: 'Visiting Researcher — Cancer Evolution 🧑🏻‍⚕️',
+    position: 'Business Development Manager — Preclinical Solutions 🧑🏻‍💼',
+    institutes: [
+      { name: 'Biocytogen', url: 'https://biocytogen.com' },
+    ],
+    startDate: '2026-09-01',
+    endDate: 'Present',
+    summary: 'I support business development for Biocytogen\'s preclinical technology portfolio, spanning humanized and customized mouse models (BioMice™) and preclinical pharmacology services. Working with biotech and pharma R&D teams, I translate their scientific objectives into tailored study designs and manage opportunities from first contact through negotiation and contract. I also represent the company at scientific conferences and support the marketing team in building awareness across the UK and European market.',
+    highlights: [
+    ],
+  },
+  {
+    position: 'Visiting Researcher — Cancer Evolution (part-time) 🧑🏻‍⚕️',
     institutes: [
       { name: 'School of Biosciences, University of Surrey', url: 'https://www.surrey.ac.uk/school-biosciences' },
     ],

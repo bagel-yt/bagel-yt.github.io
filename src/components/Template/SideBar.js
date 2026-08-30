@@ -22,22 +22,20 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am a PhD-trained biomedical professional. My work has focused on
-        translational disease modelling using stem cell–derived organoids,
-        genome editing, and integrative molecular analyses.
+        I am a Business Development Manager at Biocytogen, working with
+        biotech and pharma R&amp;D teams on humanized and customized mouse
+        models (BioMice&trade;) and preclinical pharmacology services.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am interested in building a career in pharmaceutical,
-        biotechnology, or CRO environments, drawing on my background
-        in experimental disease modelling, data analysis,
-        and cross-functional project coordination to support target
-        discovery and therapeutic development.
+        I am a PhD-trained biomedical professional and physician. My research
+        has spanned translational disease modelling with iPSC-derived
+        organoids, genome editing, molecular genetics, and phylogenetics.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        Currently based in the United Kingdom, I combine data-driven
-        research with broader interests in evolutionary perspectives
-        on disease, and maintain an active climbing practice that
-        emphasizes preparation, risk awareness, and structured progression.
+        Based in London, GB, I also hold a part-time visiting
+        researcher post in cancer evolution at the University of Surrey,
+        and maintain an active climbing practice built on preparation,
+        risk awareness, and structured progression.
       </p>
       <ul className="actions">
         <li>

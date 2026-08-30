@@ -8,8 +8,8 @@ const { PUBLIC_URL } = process.env; // set automatically from package.json:homep
 const Index = () => (
   <Main
     description={
-      "Yue Tong's personal website. UK based scientist, "
-      + 'trained physician.'
+      "Yue Tong's personal website. London-based scientist and trained physician, "
+      + 'working in biopharma business development.'
     }
   >
     <article className="post" id="index">
@@ -23,6 +23,14 @@ const Index = () => (
           </p>
         </div>
       </header>
+      <p style={{ fontSize: '1.1em' }}>
+        {' '}
+        I am a Business Development Manager at{' '}
+        <a href="https://biocytogen.com" style={{ fontWeight: 'bold' }}>Biocytogen</a>,
+        working at the interface of preclinical science and commercial partnerships,
+        and I also hold a part-time visiting researcher post in cancer evolution at
+        the University of Surrey.
+      </p>
       <p style={{ fontSize: '1.1em' }}>
         {' '}
         Please feel free to click around and read more

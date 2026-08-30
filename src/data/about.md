@@ -28,9 +28,23 @@ While trained as a physician, my medical education consistently reinforced my in
 
 &nbsp;
 
-In parallel with wet-lab and clinical research, I have been fortunate to gain substantial exposure to bioinformatics and
-phylogenetic analyses over the past several years. I am currently based in the United Kingdom, working with
-[Dr Bingxin Lu (卢冰心)](https://icelu.github.io/) and [Dr Ruolin Wu (吴若琳)](https://lynnwrl.github.io/) on
+In parallel with wet-lab and clinical research, I have gained substantial exposure to bioinformatics and
+phylogenetic analyses over the past several years, contributing to work on tumour evolution and on the
+quantitative timing of angiosperm origins.
+
+&nbsp;
+
+I am based in London, GB, where since September 2026 I have worked as a Business Development Manager
+at [Biocytogen](https://biocytogen.com), at the interface of preclinical science and commercial partnerships.
+I help biotech and pharmaceutical R&D teams match their scientific goals to Biocytogen's humanized and
+customized mouse models (BioMice™) and preclinical pharmacology services, and I manage these collaborations
+from first contact through to contract. This role builds directly on my translational research background and
+my interest in turning complex biology into structured, decision-ready insight.
+
+&nbsp;
+
+Alongside this, I continue part-time research with [Dr Bingxin Lu (卢冰心)](https://icelu.github.io/) and
+[Dr Ruolin Wu (吴若琳)](https://lynnwrl.github.io/) on
 "Reconstructing Evolutionary dynamics of Copy number Alterations from Multiple samples across cancer types".
 
 &nbsp;
