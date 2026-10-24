@@ -14,7 +14,7 @@ const SideBar = () => (
       <header>
         <h2>Yue (Uri) Tong 童越</h2>
         <p>
-          <a href="mailto:yue.tong94@gmail.com">yue.tong94@gmail.com</a>
+          <a href="mailto:hi@uritong.com">hi@uritong.com</a>
         </p>
       </header>
     </section>
