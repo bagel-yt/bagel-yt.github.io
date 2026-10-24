@@ -8,7 +8,7 @@ const data = [
   {
     label: 'Last commit',
     key: 'pushed_at',
-    link: 'https://github.com/bagel-yt/bagel-yt.github.io/commits/',
+    link: 'https://github.com/bagel-yt/workwithuri/commits/',
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
   },
 ];

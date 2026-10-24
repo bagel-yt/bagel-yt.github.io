@@ -9,7 +9,7 @@ const Stats = () => {
   const fetchData = useCallback(async () => {
     // request must be authenticated if private
     const res = await fetch(
-      'https://api.github.com/repos/bagel-yt/bagel-yt.github.io',
+      'https://api.github.com/repos/bagel-yt/workwithuri',
     );
     const resData = await res.json();
     setResponseData(
