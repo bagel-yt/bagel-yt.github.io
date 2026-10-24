@@ -1,13 +1,16 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, {
+  useEffect, useReducer, useRef, useState,
+} from 'react';
 import PropTypes from 'prop-types';
 
-// Validates the first half of an email address.
-const validateText = (text) => {
-  // NOTE: Passes RFC 5322 but not tested on google's standard.
-  // eslint-disable-next-line no-useless-escape
-  const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
-  return re.test(text) || text.length === 0;
-};
+// Animation timing constants
+const ANIMATION_TICK_MS = 50; // Tick length in milliseconds
+const HOLD_TICKS_AFTER_MESSAGE = 50; // Ticks to wait after message completes
+
+// The address the link always resolves to, whatever the animation shows.
+const CONTACT_ADDRESS = 'yue.tong94@gmail.com';
+// The domain shown after the animated alias.
+const DISPLAY_DOMAIN = 'uritong.com';
 
 const messages = [
   'hi',
@@ -20,74 +23,135 @@ const messages = [
   'but not this :(  ',
   'you.can.also.email.me.with.specific.topics.like',
   'just-saying-hi',
-  'please-work-for-us',
+  'lets-collaborate',
+  'climbing',
   'help',
-  'admin',
   'or-I-really-like-your-website',
   'thanks',
 ];
 
 const useInterval = (callback, delay) => {
-  const savedCallback = useRef();
+  const savedCallback = useRef(callback);
 
   useEffect(() => {
     savedCallback.current = callback;
   }, [callback]);
 
   useEffect(() => {
-    if (delay) {
-      const id = setInterval(() => {
-        savedCallback.current();
-      }, delay);
-      return () => clearInterval(id);
-    }
-    return () => {}; // pass linter
+    if (!delay) return () => {};
+    const id = setInterval(() => savedCallback.current(), delay);
+    return () => clearInterval(id);
   }, [delay]);
 };
 
-const EmailLink = ({ loopMessage }) => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
-  const delay = 50; // tick length in mS
+const usePrefersReducedMotion = () => {
+  const query = '(prefers-reduced-motion: reduce)';
+  const [reduced, setReduced] = useState(
+    () => typeof window !== 'undefined'
+      && !!window.matchMedia
+      && window.matchMedia(query).matches,
+  );
 
-  const [idx, updateIter] = useState(0); // points to current message
-  const [message, updateMessage] = useState(messages[idx]);
-  const [char, updateChar] = useState(0); // points to current char
-  const [isActive, setIsActive] = useState(true); // disable when all messages are printed
+  useEffect(() => {
+    if (!window.matchMedia) return () => {};
+    const mql = window.matchMedia(query);
+    const onChange = () => setReduced(mql.matches);
+    mql.addEventListener('change', onChange);
+    return () => mql.removeEventListener('change', onChange);
+  }, []);
+
+  return reduced;
+};
+
+// A message begins already showing its first character, so the prefix is
+// never empty mid-animation.
+const startOf = (idx) => ({
+  idx,
+  message: messages[idx].slice(0, 1),
+  char: 2,
+  isActive: true,
+});
+
+const animationReducer = (state, action) => {
+  switch (action.type) {
+    case 'TICK': {
+      if (state.idx >= messages.length) return state;
+
+      const finished = state.char - action.hold >= messages[state.idx].length;
+      if (!finished) {
+        return {
+          ...state,
+          message: messages[state.idx].slice(0, state.char),
+          char: state.char + 1,
+          isActive: true,
+        };
+      }
+
+      const nextIdx = state.idx + 1;
+      if (nextIdx === messages.length) {
+        if (action.loopMessage) return startOf(0);
+        // Record completion in idx so RESUME doesn't re-arm a finished run.
+        return { ...state, idx: messages.length, isActive: false };
+      }
+      return startOf(nextIdx);
+    }
+    case 'PAUSE':
+      return { ...state, isActive: false };
+    case 'RESUME':
+      return { ...state, isActive: state.idx < messages.length };
+    default:
+      return state;
+  }
+};
+
+const EmailLink = ({ loopMessage }) => {
+  const reducedMotion = usePrefersReducedMotion();
+
+  // Opens on the first message, already complete, and holds before cycling.
+  const [state, dispatch] = useReducer(animationReducer, {
+    idx: 0,
+    message: messages[0],
+    char: messages[0].length,
+    isActive: true,
+  });
+
+  useEffect(() => {
+    if (reducedMotion) dispatch({ type: 'PAUSE' });
+  }, [reducedMotion]);
 
   useInterval(
-    () => {
-      let newIdx = idx;
-      let newChar = char;
-      if (char - hold >= messages[idx].length) {
-        newIdx += 1;
-        newChar = 0;
-      }
-      if (newIdx === messages.length) {
-        if (loopMessage) {
-          updateIter(0);
-          updateChar(0);
-        } else {
-          setIsActive(false);
-        }
-      } else {
-        updateMessage(messages[newIdx].slice(0, newChar));
-        updateIter(newIdx);
-        updateChar(newChar + 1);
-      }
-    },
-    isActive ? delay : null,
+    () => dispatch({ type: 'TICK', loopMessage, hold: HOLD_TICKS_AFTER_MESSAGE }),
+    state.isActive && !reducedMotion ? ANIMATION_TICK_MS : null,
   );
+
+  const displayMessage = reducedMotion ? messages[0] : state.message;
+
+  const handlePause = () => dispatch({ type: 'PAUSE' });
+  const handleResume = () => {
+    if (!reducedMotion) dispatch({ type: 'RESUME' });
+  };
 
   return (
     <div
-      className="inline-container"
-      style={validateText(message) ? {} : { color: 'red' }}
-      onMouseEnter={() => setIsActive(false)}
-      onMouseLeave={() => idx < messages.length && setIsActive(true)}
+      className="contact-email-container"
+      onMouseEnter={handlePause}
+      onMouseLeave={handleResume}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
-        <span>{message}</span>
-        <span>@mldangelo.com</span>
+      {/* The shown alias is decorative; the link always goes to a real
+          address, even while an invalid alias is on screen. */}
+      <a
+        href={`mailto:${CONTACT_ADDRESS}`}
+        className="contact-email-link"
+        onFocus={handlePause}
+        onBlur={handleResume}
+      >
+        <span className="sr-only">Email {CONTACT_ADDRESS}</span>
+        <span className="contact-email-prefix" aria-hidden="true">
+          {displayMessage}
+        </span>
+        <span className="contact-email-domain" aria-hidden="true">
+          @{DISPLAY_DOMAIN}
+        </span>
       </a>
     </div>
   );

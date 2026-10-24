@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
-// import EmailLink from '../components/Contact/EmailLink';
+import EmailLink from '../components/Contact/EmailLink';
 import ContactIcons from '../components/Contact/ContactIcons';
 
 const Contact = () => (
@@ -14,16 +14,22 @@ const Contact = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Get in Touch</Link>
           </h2>
         </div>
       </header>
-      <div className="email-at">
-        <p>Feel free to get in touch. You can email me at: </p>
-        <p style={{ marginLeft: '20px' }}><a href="mailto:yue.tong94@gmail.com">yue.tong94@gmail.com</a></p>
-        {/* Add margin-top to create space */}
+      <div className="contact-content">
+        <div className="contact-email-block">
+          <EmailLink />
+          <p className="contact-hint">Usually respond within 24 hours</p>
+        </div>
+
+        <div className="contact-divider">
+          <span>or find me on</span>
+        </div>
+
+        <ContactIcons />
       </div>
-      <ContactIcons />
     </article>
   </Main>
 );
