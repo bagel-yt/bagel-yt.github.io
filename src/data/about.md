@@ -1,6 +1,6 @@
 # Intro
 
-I am an interdisciplinary biomedical professional.
+I am a **life science professional**, a **PhD-trained physician**, and a **climber**.
 Through hands-on clinical practice, disease modelling using stem cell– and organoid-based systems, and genomics-driven projects, I have developed a multidisciplinary perspective on how complex diseases arise, progress, and diversify across individuals.
 
 &nbsp;
@@ -34,12 +34,10 @@ quantitative timing of angiosperm origins.
 
 &nbsp;
 
-I am based in London, GB, where since September 2026 I have worked as a Business Development Manager
-at [Biocytogen](https://biocytogen.com), at the interface of preclinical science and commercial partnerships.
-I help biotech and pharmaceutical R&D teams match their scientific goals to Biocytogen's humanized and
-customized mouse models (BioMice™) and preclinical pharmacology services, and I manage these collaborations
-from first contact through to contract. This role builds directly on my translational research background and
-my interest in turning complex biology into structured, decision-ready insight.
+I am based in London, GB, where I work in the life science industry at the interface of preclinical
+science and partnerships, helping biotech and pharmaceutical R&D teams turn their scientific goals into
+well-scoped collaborations. This builds directly on my translational research background and my interest
+in turning complex biology into structured, decision-ready insight.
 
 &nbsp;
 

@@ -22,20 +22,20 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am a Business Development Manager at Biocytogen, working with
-        biotech and pharma R&amp;D teams on humanized and customized mouse
-        models (BioMice&trade;) and preclinical pharmacology services.
+        <strong>Life science professional.</strong> Based in London, I work
+        with biotech and pharma R&amp;D teams to turn scientific goals into
+        well-scoped preclinical collaborations.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        I am a PhD-trained biomedical professional and physician. My research
-        has spanned translational disease modelling with iPSC-derived
-        organoids, genome editing, molecular genetics, and phylogenetics.
+        <strong>PhD-trained physician.</strong> My research has spanned
+        translational disease modelling with iPSC-derived organoids, molecular
+        genetics, and phylogenetics, and continues part-time in cancer
+        evolution.
       </p>
       <p style={{ textAlign: 'justify', marginBottom: '5px' }}>
-        Based in London, GB, I also hold a part-time visiting
-        researcher post in cancer evolution at the University of Surrey,
-        and maintain an active climbing practice built on preparation,
-        risk awareness, and structured progression.
+        <strong>Climber.</strong> A qualified Climbing Wall Instructor, with a
+        practice built on preparation, risk awareness, and structured
+        progression.
       </p>
       <ul className="actions">
         <li>

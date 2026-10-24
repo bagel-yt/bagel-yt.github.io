@@ -51,7 +51,7 @@ const Climbs = () => (
             >
               Rock Climbing Instructor (RCI)
             </a>{' '}
-            certification by 2030.
+            certification by 2027.
           </p>
         </div>
       </header>
