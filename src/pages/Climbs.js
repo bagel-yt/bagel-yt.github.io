@@ -19,8 +19,15 @@ const Climbs = () => (
           <p>目标是从从容容、游刃有余</p>
 
           <p className="tagline">
-            I aim to train as a climbing instructor. For this purpose, I am an
-            active member of the{' '}
+            I am a qualified{' '}
+            <a
+              href="https://www.mountain-training.org/qualifications/climbing/climbing-wall-instructor"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Climbing Wall Instructor (CWI)
+            </a>
+            , an active member of the{' '}
             <a
               href="https://www.thebmc.co.uk/"
               target="_blank"
@@ -36,15 +43,7 @@ const Climbs = () => (
             >
               Mountain Training Association
             </a>{' '}
-            trainee. My short-term goal is to qualify as a{' '}
-            <a
-              href="https://www.mountain-training.org/qualifications/climbing/climbing-wall-instructor"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Climbing Wall Instructor (CWI)
-            </a>{' '}
-            by 2026, followed by{' '}
+            member. My next goal is{' '}
             <a
               href="https://www.mountain-training.org/qualifications/climbing/rock-climbing-instructor/"
               target="_blank"

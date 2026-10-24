@@ -49,7 +49,7 @@ Alongside this, I continue part-time research with [Dr Bingxin Lu (卢冰心)](h
 
 &nbsp;
 
-Outside of research, climbing has become an important long-term practice for me. Beyond the physical aspect, climbing has shaped how I think about preparation, risk management, and incremental progress under uncertainty. I am actively training toward formal instructor qualifications, with a strong emphasis on safety, responsibility, and contributing to the climbing community.
+Outside of research, climbing has become an important long-term practice for me. Beyond the physical aspect, climbing has shaped how I think about preparation, risk management, and incremental progress under uncertainty. I am now a qualified [Climbing Wall Instructor (CWI)](https://www.mountain-training.org/qualifications/climbing/climbing-wall-instructor) and am working toward Rock Climbing Instructor, with a strong emphasis on safety, responsibility, and contributing to the climbing community.
 
 &nbsp;
 

@@ -55,7 +55,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Yue Tong <Link to="/">bagel-yt@github.io</Link>.
+        &copy; Yue Tong <Link to="/">uritong.com</Link>.
       </p>
     </section>
   </section>
