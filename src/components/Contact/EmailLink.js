@@ -8,12 +8,11 @@ const ANIMATION_TICK_MS = 50; // Tick length in milliseconds
 const HOLD_TICKS_AFTER_MESSAGE = 50; // Ticks to wait after message completes
 
 // The address the link always resolves to, whatever the animation shows.
-const CONTACT_ADDRESS = 'yue.tong94@gmail.com';
-// The domain shown after the animated alias.
-const DISPLAY_DOMAIN = 'uritong.com';
+const CONTACT_ADDRESS = 'hi@uritong.com';
+const [CONTACT_LOCAL_PART, CONTACT_DOMAIN] = CONTACT_ADDRESS.split('@');
 
 const messages = [
-  'hi',
+  CONTACT_LOCAL_PART,
   'hello',
   'hola',
   'you-can-email-me-at-literally-anything! Really',
@@ -150,7 +149,7 @@ const EmailLink = ({ loopMessage }) => {
           {displayMessage}
         </span>
         <span className="contact-email-domain" aria-hidden="true">
-          @{DISPLAY_DOMAIN}
+          @{CONTACT_DOMAIN}
         </span>
       </a>
     </div>
